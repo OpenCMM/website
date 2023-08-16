@@ -18,15 +18,15 @@
 
 	<footer>
 		<div class="social">
-			<a href="https://www.youtube.com/@OpenCMM/featured">
+			<a href="https://www.youtube.com/@OpenCMM/featured" target="_blank">
 				<img src={youtube} alt="youtube" />
 			</a>
 
-			<a href="https://github.com/OpenCMM">
+			<a href="https://github.com/OpenCMM" target="_blank">
 				<img src={github} alt="GitHub" />
 			</a>
 
-			<a href="https://twitter.com/OpenCMM">
+			<a href="https://twitter.com/OpenCMM" target="_blank">
 				<img src={twitterx} alt="X" />
 			</a>
 		</div>
