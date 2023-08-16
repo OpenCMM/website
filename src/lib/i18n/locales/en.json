@@ -16,6 +16,10 @@
 		"goal": {
 			"title": "Our goal",
 			"description": "The goal of this project is to build a CMM that can measure with an accuracy of ~1µm."
+		},
+		"progress": {
+			"title": "Progress",
+			"current": "We tested with our prototype and achieved an accuracy of ~0.1mm. We connected the camera and the CNC machine with tape, but we will build the metal connector between the camera and the CNC machine soon."
 		}
 	}
 }

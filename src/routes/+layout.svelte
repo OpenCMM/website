@@ -41,7 +41,7 @@
 	}
 
 	.social {
-		width: 3em;
+		width: 9em;
 		height: 3em;
 		display: flex;
 		margin: 0 auto;
