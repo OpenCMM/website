@@ -1,5 +1,4 @@
 <script>
-	import './styles.css';
 	import youtube from '$lib/images/youtube.svg';
 	import github from '$lib/images/github.svg';
 	import twitterx from '$lib/images/twitter.svg';
