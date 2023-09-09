@@ -1,10 +1,9 @@
 {
 	"home": {
-		"description": "OpenCMM is an image-based CMM (Coordinate Measuring Machine) that works inside a CNC machine.",
+		"description": "OpenCMM is an on-machine CMM (Coordinate Measuring Machine).",
 		"why": {
 			"title": "Why inside a CNC machine?",
-			"reason": "Although a general CMM is very accurate, it is necessary to take out the product to measure it. For this reason, if the result of the measurement does not meet the requirements, you have to do centering again, which offten takes time. Also, centering is not always accurate, which leads to inaccurate processing.",
-			"advantage": "By measuring inside the CNC machine, there is no need for centering after measurement, and the product stays in the same position before and after measurement. This allows for more accurate processing and less time spent on centering."
+			"reason": "Although conventional CMMs are accurate, you have to take out from the CNC machine for measurement. On-machine measurement can combine the two processes of machining and measurement into one process." 
 		},
 		"how": {
 			"title": "How does it work?",
@@ -19,7 +18,7 @@
 		},
 		"progress": {
 			"title": "Progress",
-			"current": "We tested with our prototype and achieved an accuracy of ~0.1mm. We connected the camera and the CNC machine with tape, but we will build the metal connector between the camera and the CNC machine soon."
+			"current": "We hope to build the first product by September 23rd. It will be look like this animation."
 		}
 	}
 }
