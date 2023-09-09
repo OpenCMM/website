@@ -1,7 +1,6 @@
 <script>
 	import { _ } from 'svelte-i18n';
 	import { Content, Grid, Row, OrderedList, ListItem } from 'carbon-components-svelte';
-	import demo from '$lib/images/opencmm-v0.1.0.jpg';
 </script>
 
 <svelte:head>
@@ -21,9 +20,6 @@
 				<h2>{$_('home.why.title')}</h2>
 				<p>
 					{$_('home.why.reason')}
-				</p>
-				<p>
-					{$_('home.why.advantage')}
 				</p>
 			</Row>
 			<Row>
@@ -59,7 +55,8 @@
 				<h2>{$_('home.progress.title')}</h2>
 			</Row>
 			<Row>
-				<img src={demo} alt="demo" id="demo" />
+				<!-- youtube link -->
+				<iframe id="demo" title="demo" src="https://www.youtube.com/embed/Zu_7y06MKTQ?si=KcXyogeZ6LbppWTw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				<p>
 					{$_('home.progress.current')}
 				</p>
