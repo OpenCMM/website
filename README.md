@@ -1,24 +1,41 @@
 # OpenCMM Website
 
-## Developing
+This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-Once you've created a project and installed dependencies with `yarn install`, start a development server:
+### Installation
 
-```bash
-yarn dev
-
-# or start the server and open the app in a new browser tab
-yarn dev -- --open
+```
+$ yarn
 ```
 
-## Building
+### Local Development
 
-To create a production version of your app:
-
-```bash
-yarn build
+```
+$ yarn start
 ```
 
-You can preview the production build with `yarn preview`.
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+### Build
+
+```
+$ yarn build
+```
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+### Deployment
+
+Using SSH:
+
+```
+$ USE_SSH=true yarn deploy
+```
+
+Not using SSH:
+
+```
+$ GIT_USER=<Your GitHub username> yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
