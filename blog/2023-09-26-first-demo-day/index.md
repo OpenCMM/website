@@ -1,11 +1,7 @@
 ---
 slug: first-demo-day
 title: First Demo Day
-authors:
-  name: Yuichiro Aoki
-  title: Docusaurus Core Team
-  url: https://github.com/yuichiroaoki
-  image_url: https://github.com/yuichiroaoki.png
+authors: yuchi
 tags: [demo]
 ---
 
