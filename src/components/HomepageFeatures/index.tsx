@@ -1,42 +1,40 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import Translate from '@docusaurus/Translate';
 
 type FeatureItem = {
-  title: string;
+  title: JSX.Element;
   Svg: React.ComponentType<React.ComponentProps<'svg'>>;
   description: JSX.Element;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
-  },
-  {
-    title: 'Focus on What Matters',
+    title: <Translate id="opensource.title">Opensource</Translate>,
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
+      <Translate id="opensource.description">
+        OpenCMM is opensource and free to use. You can contribute to the project on GitHub.
+      </Translate>
     ),
   },
   {
-    title: 'Powered by React',
+    title: <Translate id="remoteAccess.title">Remote Access</Translate>,
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
+      <Translate id="remoteAccess.description">
+        Access your CNC machines remotely from anywhere using VNC and VPN.
+      </Translate>
+    ),
+  },
+  {
+    title: <Translate id="easyToUse.title">Easy to Use</Translate>,
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <Translate id="easyToUse.description">
+        OpenCMM is easy to use and can be installed on Windows, Linux and MacOS.
+      </Translate>
     ),
   },
 ];
