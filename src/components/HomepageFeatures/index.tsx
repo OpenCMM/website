@@ -1,39 +1,40 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import Translate from '@docusaurus/Translate';
 
 type FeatureItem = {
-  title: string;
+  title: JSX.Element;
   Svg: React.ComponentType<React.ComponentProps<'svg'>>;
   description: JSX.Element;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Opensource',
+    title: <Translate id="opensource.title">Opensource</Translate>,
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
-      <>
+      <Translate id="opensource.description">
         OpenCMM is opensource and free to use. You can contribute to the project on GitHub.
-      </>
+      </Translate>
     ),
   },
   {
-    title: 'Remote Access',
+    title: <Translate id="remoteAccess.title">Remote Access</Translate>,
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
-      <>
+      <Translate id="remoteAccess.description">
         Access your CNC machines remotely from anywhere using VNC and VPN.
-      </>
+      </Translate>
     ),
   },
   {
-    title: 'Easy to Use',
+    title: <Translate id="easyToUse.title">Easy to Use</Translate>,
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
-      <>
+      <Translate id="easyToUse.description">
         OpenCMM is easy to use and can be installed on Windows, Linux and MacOS.
-      </>
+      </Translate>
     ),
   },
 ];
