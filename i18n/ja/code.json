@@ -280,7 +280,7 @@
     "message": "リモートアクセス"
   },
   "remoteAccess.description": {
-    "message": "VNCとVPNを使用して、どこからでもCNCマシンにリモートにアクセスできます"
+    "message": "VNCとVPNを使用して、どこからでもマシニングセンタにリモートにアクセスできます"
   },
   "easyToUse.title": {
     "message": "使いやすい"
