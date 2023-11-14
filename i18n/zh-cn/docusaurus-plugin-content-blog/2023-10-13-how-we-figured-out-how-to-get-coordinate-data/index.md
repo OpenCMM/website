@@ -42,6 +42,9 @@ tags: [mtconnect, sensor, coordinate]
 当我在CNC机器上浏览一些文件夹时，我找到了一个名为“ MTConnect”的文件夹，并对它进行了一些研究。
 然后，我发现MTConnect是从CNC机器中获取数据的协议，其默认端口7878是打开的。
 我在Ubuntu Server上设置了MTConnect代理，并通过引用文档创建了agent.cfg和devices.xml文件。
-然后，我最终可以使用Metastudio（MTConnect Explorer）从CNC机器中找到轴数据。
+然后，我最终可以使用[Metastudio](https://www.metalogi.io/download)（MTConnect Explorer）从CNC机器中找到轴数据。
 
 有关MTConnect的更多信息，请参阅[docs](/zh-cn/docs/tutorial-basics/mtconnect)。
+
+
+![MetaStudio](https://github.com/OpenCMM/website/assets/45054071/97d2c3fa-fe8e-4f9f-9e6d-4589b8228e1c)

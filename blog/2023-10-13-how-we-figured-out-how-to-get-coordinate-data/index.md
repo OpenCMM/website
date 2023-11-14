@@ -1,6 +1,6 @@
 ---
-slug: how-to-get-coordinate-data
-title: How to get coordinate data
+slug: how-we-figured-out-how-to-get-coordinate-data
+title: How We Figured Out How to Get Coordinate Data
 authors: yuchi
 tags: [mtconnect, sensor, coordinate]
 ---
@@ -42,6 +42,8 @@ Not just it helps me figure out things easier, but it also improves the efficien
 When I was browsing some folders on the CNC machine, I found a folder called "MTConnect" and did some research on it.
 Then I found out that MTConnect is a protocol to get data from CNC machines and its default port 7878 was open.
 I set up an MTConnect agent on the ubuntu server and created agent.cfg and devices.xml files by referring the docs.
-Then I could finally find the axis data from the CNC machine using MetaStudio (MTConnect explorer).
+Then I could finally find the axis data from the CNC machine using [MetaStudio](https://www.metalogi.io/download) (MTConnect explorer).
 
 For more about MTConnect, please refer to [docs](/docs/tutorial-basics/mtconnect).
+
+![MetaStudio](https://github.com/OpenCMM/website/assets/45054071/97d2c3fa-fe8e-4f9f-9e6d-4589b8228e1c)
