@@ -1,6 +1,6 @@
 ---
-slug: how-to-get-coordinate-data
-title: 軸座標の取得方法
+slug: how-we-figured-out-how-to-get-coordinate-data
+title: どのように軸座標を取得できたか
 authors: yuchi
 tags: [mtconnect, sensor, coordinate]
 ---
@@ -40,7 +40,9 @@ CNCにはシリアルポートがあるため、シリアルポートから軸�
 マシニングセンタでいくつかのフォルダーを閲覧していたとき、「MTConnect」というフォルダーを見つけて、それについていくつかの調査を行いました。
 次に、MTConnectはマシニングセンタからデータを取得するためのプロトコルであり、そのデフォルトのポート7878が開いていることがわかりました。
 ubuntuサーバーにMTConnectエージェントをインストールし、ドキュメントを参照してagent.cfgおよびdevices.xmlファイルを作成しました。
-次に、Metastudio（Mtconnect Explorer）を使用してマシニングセンタから軸データを見つけることができました。
+次に、[Metastudio](https://www.metalogi.io/download)（Mtconnect Explorer）を使用してマシニングセンタから軸データを見つけることができました。
 
 
 MTConnectの詳細については、[docs](/ja/docs/tutorial-basics/mtconnect)を参照してください。
+
+![MetaStudio](https://github.com/OpenCMM/website/assets/45054071/97d2c3fa-fe8e-4f9f-9e6d-4589b8228e1c)

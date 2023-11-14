@@ -77,6 +77,7 @@ const config = {
             label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/price', label: 'Price', position: 'left'},
           {
             href: 'https://github.com/OpenCMM/opencmm',
             label: 'GitHub',
@@ -119,6 +120,10 @@ const config = {
               {
                 label: 'Blog',
                 to: '/blog',
+              },
+              {
+                label: 'Price',
+                to: '/price',
               },
               {
                 label: 'GitHub',
