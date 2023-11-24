@@ -2,7 +2,7 @@
 slug: how-we-figured-out-how-to-get-coordinate-data
 title: どのように軸座標を取得できたか
 authors: yuchi
-tags: [mtconnect, sensor, coordinate]
+tags: [MTConnect, sensor, coordinate]
 ---
 
 1週間前、10月6日にマシニングセンタから座標データを取得する方法をついに見つけました。

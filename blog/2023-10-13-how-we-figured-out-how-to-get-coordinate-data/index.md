@@ -2,7 +2,7 @@
 slug: how-we-figured-out-how-to-get-coordinate-data
 title: How We Figured Out How to Get Coordinate Data
 authors: yuchi
-tags: [mtconnect, sensor, coordinate]
+tags: [MTConnect, sensor, coordinate]
 ---
 
 A week ago, on October 6th we finally figured out how to get coordinate data from a CNC machine. Sadly, it took us over 2 months to figure it out...

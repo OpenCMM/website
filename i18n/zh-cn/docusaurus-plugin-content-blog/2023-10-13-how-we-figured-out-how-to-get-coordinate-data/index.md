@@ -2,7 +2,7 @@
 slug: how-to-get-coordinate-data
 title: 如何获取坐标数据
 authors: yuchi
-tags: [mtconnect, sensor, coordinate]
+tags: [MTConnect, sensor, coordinate]
 ---
 
 一周前，10月6日，我们终于弄清楚了如何从CNC机器中获取坐标数据。可悲的是，我们花了2个月的时间才弄清楚了...
