@@ -112,6 +112,10 @@ const config = {
                 label: 'YouTube',
                 href: 'https://www.youtube.com/@OpenCMM/featured',
               },
+              {
+                label: 'TikTok',
+                href: 'https://www.tiktok.com/@opencmm',
+              },
             ],
           },
           {

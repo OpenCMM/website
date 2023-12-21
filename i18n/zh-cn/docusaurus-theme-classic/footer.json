@@ -23,6 +23,10 @@
     "message": "YouTube",
     "description": "The label of footer link with label=YouTube linking to https://www.youtube.com/@OpenCMM/featured"
   },
+  "link.item.label.TikTok": {
+    "message": "TikTok",
+    "description": "The label of footer link with label=TikTok linking to https://www.tiktok.com/@opencmm"
+  },
   "link.item.label.Blog": {
     "message": "Blog",
     "description": "The label of footer link with label=Blog linking to /blog"
