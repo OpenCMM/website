@@ -57,6 +57,11 @@ export default function HomepageFeatures(): JSX.Element {
   return (
     <section className={styles.features}>
       <div className="container">
+        <h3>
+          <Translate id="home.features.title">
+            OpenCMM Software Features
+          </Translate>
+        </h3>
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />

@@ -270,6 +270,48 @@
     "message": "タグ",
     "description": "The title of the tag list page"
   },
+  "home.subtitle": {
+    "message": "3Dスキャナ型機内測定器"
+  },
+  "home.latestUpdates": {
+    "message": "製品の最新情報"
+  },
+  "home.automaticScan.title": {
+    "message": "測定の自動化"
+  },
+  "home.automaticScan.description": {
+    "message": "タッチプローブと違いCADデータなしで加工の後に自動で測定を行うことができます"
+  },
+  "home.accuracy.title": {
+    "message": "50µmの分解能"
+  },
+  "home.accuracy.description": {
+    "message": "一般公差の測定が十分できる分解能となっております"
+  },
+  "home.supportingMachines.title": {
+    "message": "幅広いマシニングセンタに対応"
+  },
+  "home.supportingMachines.description": {
+    "message": "タッチプローブと違いマシンの基盤を工事する必要がなく、３軸５軸メーカーを問わず幅広いマシニングセンタに対応しております"
+  },
+  "home.vision.title": {
+    "message": "当社の目標"
+  },
+  "home.vision.description": {
+    "message": "金属加工業界において多品種少量が中心の中小企業では、少子高齢化による労働力不足、また海外からの安い製品の流入により今後さらなる競争に直面します。多品種少量においては量産に比べ測定に多くの時間が割かれいますが、自動化、省人化が難しく、また測定を自動化するタッチプローブなどはオプションや基盤を工事する必要があるため導入のハードルが高くなっています。本製品を通じて加工と一般公差の測定の工程集約を実現し、自動化および省人化を推進し、顧客の利益率向上に貢献することを目指しています。"
+  },
+  "home.devStatus.title": {
+    "message": "進捗状況"
+  },
+  "home.devStatus.description": {
+    "message": "詳細についてはGitHub、YouTube、ブログ記事をご覧ください"
+  },
+  "home.devStatus.prototype": {
+    "message": "試作品完成"
+  },
+  "home.devStatus.forSale": {
+    "message": "販売開始"
+  },
   "opensource.title": {
     "message": "オープンソース"
   },
